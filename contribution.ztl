@@ -1,0 +1,11 @@
+class com.ac.speedometer.Speedometer extends Component {
+	/* Sets the value of the needle */
+	void setNeedle(/* the new val */ float val) {*
+		this.indicator = val;
+	*}
+	
+	/* Sets the showed value of the component */
+	void setShowedValue(String value){*
+		this.showedValue = value;
+	*}
+}
